@@ -1,0 +1,186 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px;
+min-height: 60vh;
+font-size: 21px;
+font-weight: 200;
+top: 70px;
+right: 250px;
+    background-image: url('p3.jpg'); /* Replace with your academy's image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.hero .logo1
+{
+    position: relative;
+    color: #a1050d;
+    font-size: 70px;
+    font-weight: 200;
+    top: 75px;
+    right: -190px;
+}
+.hero .logo2
+{
+    position: relative;
+    color: #a1050d;
+    font-size: 23px;
+    font-weight: 200;
+    top: 60px;
+    right: -180px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 20px 60px;
+    position: absolute; /* Position the button absolutely within the .hero container */
+    right: 370px; /* Adjust the right distance as needed */
+    top: 340px;
+    background-color: #000; /* Your primary color */
+    color: #a1050d;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 50px;
+    
+}
+.destinations {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .destinations h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .destination-card {
+    display: inline-block;
+    width: 300px;
+    margin-right: 20px;
+  }
+  
+  .destination-card img {
+    width: 100%;
+  }
+  
+  .destination-card h3 {
+    margin-top: 10px;
+  }
+  .about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  } 
+  .about p
+  {
+    text-align: justify;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .about ul
+  {
+    text-align: center;
+    list-style-type: square;
+  }
+  .contact {
+    padding: 100px;
+    text-align: center;
+  }
+  .contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .contact p{
+    text-align: center;
+  }
+  .contact-form {
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+  }
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+  }
+  form input,
+  textarea {
+    padding: 15px;
+    border-radius: 0.5rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: hsla(260, 100%, 44%, 0.1);
+    margin-bottom: 1rem;
+    color: var(--text-color);
+  }
+  form input::placeholder,
+  textarea::placeholder {
+    color: var(--text-color);
+  }
+  form textarea {
+    resize: none;
+    height: 200px;
+  }
+  .contact-button {
+    width: 160px;
+    cursor: pointer;
+    background: #2768d9;
+    color: #fff;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 35%;
+  }
+  .contact-button:hover {
+    background: var(--hover);
+  }
+
+/* Add more styles for course listings, about section, and contact section as needed */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
